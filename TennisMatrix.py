@@ -7,7 +7,7 @@ st.set_page_config(page_title="Tennis Matrix Explorer", layout="wide")
 st.title("🎾 Tennis Matrix Explorer")
 
 # --- Load Excel file ---
-file = "Tennis Matrix.xlsx"
+file = "TennisMatrix.xlsx"
 df = pd.read_excel(file, sheet_name="Technical Skills")
 
 # --- Display table with editing enabled ---
